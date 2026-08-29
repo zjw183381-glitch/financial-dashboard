@@ -92,4 +92,23 @@ Add your FRED API key:
 FRED_API_KEY=your_fred_api_key
 ```
 
-The `.env` file is excluded from GitHub to protect the API key.
+The `.env` file is excluded from GitHub to protect the API key.git add README.md
+
+## Automated Tests
+
+The project includes automated tests for the core financial calculation functions.
+
+The test suite covers:
+
+- Daily returns
+- Total return
+- Average return
+- Annualized volatility
+- Moving average
+
+Test command:
+
+```bash
+pytest
+
+5 passed
